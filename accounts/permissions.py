@@ -4,7 +4,7 @@ class IsInvestor(BasePermission):
     """Allow access only to users with the INVESTOR role."""
     def has_permission(self, request, view):
         return bool(
-            request.user
+            request.user 
             and request.user.is_authenticated
             and request.user.role == "INVESTOR"
         )
