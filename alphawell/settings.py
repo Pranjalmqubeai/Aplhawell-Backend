@@ -17,12 +17,14 @@ ALLOWED_HOSTS = [
     "localhost",
     "127.0.0.1",
     "0.0.0.0",
+    "3.236.227.108"
     
 ]
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",  # Vite default dev port
     "http://127.0.0.1:5173",
+    "http://18.232.140.212",
     
 ]
 
